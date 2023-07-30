@@ -3,11 +3,11 @@ import React from "react";
 const Info = () => {
   return (
     <div className="w-full flex flex-col">
-      <h2 className="text-center text-primary font-playFair text-[35px] font-bold">
+      <h2 className="text-center text-primary font-playFair text-[35px] font-bold px-4">
         A little Bit About Me
       </h2>
       <div className="max-w-[1250px] mx-auto w-full bg-secondary p-10 mt-16 rounded-md">
-        <p className="text-white text-[20px] font-normal font-raleway leading-[30px] mb-8">
+        <p className="text-white text-[20px] font-normal font-raleway leading-[35px] mb-8">
           Hi and welcome to my Revenue Revolution digital marketing course! My
           name is Francesca and I am really excited that you are here. First and
           foremost, I am a wife and mom to 4 sweet kids. We live on the beach in
@@ -22,7 +22,7 @@ const Info = () => {
           for troubled young men. He is also an entrepreneur and now a
           successful podcaster as well!
         </p>
-        <p className="text-white text-[20px] font-normal font-raleway leading-[30px] mb-8">
+        <p className="text-white text-[20px] font-normal font-raleway leading-[35px] mb-8">
           About 8 years ago as a stay at home mom, I decided to find ways to
           make money online. After 4 years of struggling to find my place in
           this online world I caught a ground-floor opportunity to launch an
@@ -33,7 +33,7 @@ const Info = () => {
           I have been focusing on being a mama and praying about what I want to
           do next in this online space.
         </p>
-        <p className="text-white text-[20px] font-normal font-raleway leading-[30px] mb-8">
+        <p className="text-white text-[20px] font-normal font-raleway leading-[35px] mb-8">
           My goodness I think I found it!!!!! This Master Resell Rights is
           unlike anything I have ever seen before. The concept is radical, the
           timing is impeccable, and the course itself is so robust. What makes

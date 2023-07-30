@@ -3,7 +3,7 @@ import React from "react";
 const Testimonial = () => {
   return (
     <div className="py-[80px]">
-      <h2 className="text-center font-playFair text-[37px] text-primary mb-16 font-bold">
+      <h2 className="text-center font-playFair text-[37px] text-primary mb-16 px-4 font-bold">
         See What REAL Community Members Have to Say!
       </h2>
       <div className="max-w-[1250px] mx-auto w-full flex-col md:flex-row flex gap-8 px-8 mb-16">

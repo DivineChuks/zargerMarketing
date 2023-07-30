@@ -15,7 +15,7 @@ const Hero = () => {
         <p className="font-raleway text-[40px] md:text-[65px] font-normal text-accent">
           With Master Resell Rights
         </p>
-        <p className="font-raleway text-[35px] md:text-[45px] font-bold italic text-primary">
+        <p className="font-raleway text-[30px] md:text-[45px] font-bold italic text-primary">
           your digital marketing business
         </p>
       </div>

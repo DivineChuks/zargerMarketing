@@ -41,8 +41,12 @@ const List = () => {
           </h2>
         </div>
       </div>
-      <h2 className="text-center text-[28px] text-primary">
+      <h2 className="text-center hidden md:block text-[28px] text-primary">
         Absolutely NO UPSELLS, ever.<br></br> One up-front price and the product is
+        yours.
+      </h2>
+      <h2 className="text-center block md:hidden text-[28px] text-primary">
+        Absolutely NO UPSELLS, ever. One up-front price and the product is
         yours.
       </h2>
     </div>
