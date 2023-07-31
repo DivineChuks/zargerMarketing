@@ -1,13 +1,11 @@
 import React from "react";
 import Hero from "../components/Hero";
-import JoinNow from "../components/JoinNow";
 import Accordion from "../components/Accordion";
 import Info from "../components/Info";
-import Video from "../components/Video";
 import Testimonial from "../components/Testimonial";
-import Questions from "../components/Questions";
 import Footer from "../components/Footer";
 import Features from "../components/Features";
+import Offers from "../components/Offers";
 
 const Home = () => {
   return (
@@ -15,9 +13,9 @@ const Home = () => {
       <Hero />
       <Features />
       <Accordion />
-      <Info />
       <Testimonial />
-      <Questions />
+      <Info />
+      <Offers />
       <Footer />
     </div>
   );

@@ -8,7 +8,7 @@ const Features = () => {
     AOS.init();
   }, []);
   return (
-    <div className="bg-[#F0E3FF] relative z-20 flex-col pt-[80px] pr-[20px] pl-[20px] md:pr-0 md:pl-[4px] overflow-hidden">
+    <div className="bg-[#F3F1FD] relative z-20 flex-col pt-[80px] pr-[20px] pl-[20px] md:pr-0 md:pl-[4px] overflow-hidden">
       <h2
         data-aos="zoom-in"
         data-aos-easing="ease-in-sine"

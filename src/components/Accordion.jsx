@@ -42,8 +42,9 @@ const Accordion = () => {
   return (
     <div
       id="faqs"
-      className="relative z-10 pt-[20px] md:pt-[70px] px-[20px] md:px-[70px] pb-[30px] md:pb-[150px] overflow-hidden"
+      className="relative z-10 pt-[20px] md:pt-[70px] px-[20px] md:px-[70px] pb-[30px] md:pb-[80px] overflow-hidden"
     >
+      <h2 className="text-center text-[40px] font-bold font-playFair mb-16">Have a Question?</h2>
       {questions.map(({ title, desc }, index) => (
         <AccordionItem
           component="accordion"
