@@ -3,15 +3,16 @@ import { SiGooglemarketingplatform } from "react-icons/si";
 import { TbBrandEdge } from "react-icons/tb";
 import { BsBook } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import {MdContentCopy, MdOutlineAlternateEmail} from "react-icons/md"
-import {BsTools} from "react-icons/bs"
-import {FaBloggerB} from "react-icons/fa"
+import { MdContentCopy, MdOutlineAlternateEmail } from "react-icons/md";
+import { BsTools } from "react-icons/bs";
+import { FaBloggerB } from "react-icons/fa";
 
 const Offers = () => {
   return (
     <div className="bg-[#F3F1FD] px-4 md:px-16 py-[80px] w-full">
-      <h2 className="text-[40px] mb-16 font-playFair font-bold text-primary text-center">
-        What You'll Gain
+      <h2 className="text-[35px] md:text-[40px] mb-16 font-playFair font-bold text-primary text-center">
+        Curious about what you will get when you purchase the Learn & Earn
+        Profits Course?
       </h2>
       <div className="grid grid-col md:grid-cols-4 gap-8 ">
         <div className="py-8 px-6 bg-white rounded-md">
@@ -69,7 +70,7 @@ const Offers = () => {
         </div>
         <div className="py-8 px-6 bg-white rounded-md">
           <div className="w-16 h-16 mb-4 bg-[#F3F1FD] rounded-full flex justify-center items-center">
-            <MdOutlineAlternateEmail size={20} color="#0D1282"  />
+            <MdOutlineAlternateEmail size={20} color="#0D1282" />
           </div>
           <h2 className="font-playFair font-bold mb-4">BRANDING EXPANSION</h2>
           <p>
@@ -81,7 +82,7 @@ const Offers = () => {
         </div>
         <div className="py-8 px-6 bg-white rounded-md">
           <div className="w-16 h-16 mb-4 bg-[#F3F1FD] rounded-full flex justify-center items-center">
-            <BsTools size={20} color="#0D1282"/>
+            <BsTools size={20} color="#0D1282" />
           </div>
           <h2 className="font-playFair font-bold mb-4">BUSINESS TOOLS</h2>
           <p>

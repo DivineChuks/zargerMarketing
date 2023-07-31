@@ -3,7 +3,7 @@ import { BiChevronRight } from "react-icons/bi";
 const Footer = () => {
   return (
     <div className="bg-black pt-[80px] px-[20px] md:px-[70px] overflow-hidden">
-      <div className="hidden md:grid md:grid-cols-4 text-white">
+      <div className="hidden md:grid md:grid-cols-5 text-white">
         <div className="col-span-1 md:col-span-2">
           <div className="mb-[40px]">
             <h2>Zarger</h2>
@@ -28,7 +28,19 @@ const Footer = () => {
         <div className="col-span-1">
           <h2 className="font-raleway text-[30px] mb-[36px]">Company</h2>
           <p className="text-[20px] text-[#A3A3A3] cursor-pointer font-glacial mb-[20px]">
-            Join Now
+            License
+          </p>
+          <p className="text-[20px] text-[#A3A3A3] cursor-pointer font-glacial mb-[20px]">
+            Income disclosure
+          </p>
+        </div>
+        <div className="col-span-1">
+          <h2 className="font-raleway text-[30px] mb-[36px]">Legal</h2>
+          <p className="text-[20px] text-[#A3A3A3] cursor-pointer font-glacial mb-[20px]">
+            Privacy
+          </p>
+          <p className="text-[20px] text-[#A3A3A3] cursor-pointer font-glacial mb-[20px]">
+            Terms & Condition
           </p>
         </div>
       </div>
@@ -44,7 +56,10 @@ const Footer = () => {
             Company
           </h2>
           <p className="text-[20px] text-[#A3A3A3] cursor-pointer font-glacial mb-[20px]">
-            About us
+            License
+          </p>
+          <p className="text-[20px] text-[#A3A3A3] cursor-pointer font-glacial mb-[20px]">
+            Income disclosure
           </p>
         </div>
         <div>
@@ -53,6 +68,9 @@ const Footer = () => {
           </h2>
           <p className="text-[20px] text-[#A3A3A3] cursor-pointer  font-glacial mb-[20px]">
             Privacy policy
+          </p>
+          <p className="text-[20px] text-[#A3A3A3] cursor-pointer  font-glacial mb-[20px]">
+            Terms
           </p>
         </div>
       </div>
@@ -130,7 +148,7 @@ const Footer = () => {
               className="bg-transparent w-[120px] focus:outline-none border border-white rounded-lg py-2 px-2 placeholder:text-white"
             />
             <div className="bg-white cursor-pointer w-[40px] h-[40px] rounded-lg justify-center items-center flex">
-              <BiChevronRight size={30} color="#000"  />
+              <BiChevronRight size={30} color="#000" />
             </div>
           </div>
         </div>
