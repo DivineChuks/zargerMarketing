@@ -18,7 +18,7 @@ const Info = () => {
             />
           </div>
           <div className="flex-1">
-            <h2 className="text-[31px] font-bold mb-4">
+            <h2 className="text-[31px] font-bold text-primary mb-4">
               A little Bit About Me
             </h2>
             <p className="text-[20px]">

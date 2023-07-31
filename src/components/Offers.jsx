@@ -10,7 +10,7 @@ import {FaBloggerB} from "react-icons/fa"
 const Offers = () => {
   return (
     <div className="bg-[#F3F1FD] px-4 md:px-16 py-[80px] w-full">
-      <h2 className="text-[40px] mb-16 font-playFair font-bold text-center">
+      <h2 className="text-[40px] mb-16 font-playFair font-bold text-primary text-center">
         What You'll Gain
       </h2>
       <div className="grid grid-col md:grid-cols-4 gap-8 ">

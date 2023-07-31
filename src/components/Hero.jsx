@@ -7,7 +7,7 @@ const Hero = () => {
       <Navbar />
       <div className="absolute inset-0 z-20 bg-primary bg-opacity-5 bg-cover"></div>
       <div className="max-w-[900px] mt-8 w-full mx-auto bg-white bg-opacity-50 flex-col items-center flex px-8 py-16">
-        <h2 className="text-[27px] md:text-[48px] text-primary font-bold font-playFair">
+        <h2 className="text-[27px] md:text-[48px] text-black font-bold font-playFair">
           REVENUE REVOLUTION
         </h2>
         <p className="font-raleway text-[40px] md:text-[65px] font-normal text-accent">

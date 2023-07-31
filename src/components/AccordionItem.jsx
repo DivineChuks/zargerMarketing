@@ -35,7 +35,7 @@ const AccordionItem = ({ title, desc, open, toggle, component }) => {
         )}
       </div>
       <Collapse isOpened={open}>
-        <div className="ml-0 md:ml-[30px] mt-[30px] mb-[20px] rounded-[9px] bg-secondary py-[20px] px-[30px]">
+        <div className="ml-0 md:ml-[30px] mt-[30px] mb-[20px] rounded-[9px] bg-primary py-[20px] px-[30px]">
           <p className="font-raleway text-white text-[18px]">{desc}</p>
         </div>
       </Collapse>
