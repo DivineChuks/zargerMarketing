@@ -5,6 +5,7 @@ const Hero = () => {
   return (
     <div className="relative bg-hero bg-center bg-cover h-screen justify-center items-center flex flex-col py-[100px] w-full">
       <Navbar />
+      <div className="absolute inset-0 z-20 bg-primary bg-opacity-25 bg-cover"></div>
       <div className="max-w-[1000px] mt-8 w-full mx-auto bg-white bg-opacity-70 flex-col items-center flex px-8 py-16">
         <h2 className="text-[27px] md:text-[48px] text-primary font-bold font-playFair">
           REVENUE REVOLUTION

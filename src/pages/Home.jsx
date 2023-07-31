@@ -7,15 +7,15 @@ import Video from "../components/Video";
 import Testimonial from "../components/Testimonial";
 import Questions from "../components/Questions";
 import Footer from "../components/Footer";
+import Features from "../components/Features";
 
 const Home = () => {
   return (
     <div>
       <Hero />
-      <JoinNow />
+      <Features />
       <Accordion />
       <Info />
-      <Video />
       <Testimonial />
       <Questions />
       <Footer />

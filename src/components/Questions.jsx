@@ -80,14 +80,6 @@ const Questions = () => {
           toggle={() => toggle(index)}
         />
       ))}
-      <div className="max-w-[1200px] mx-auto bg-secondary h-[180px] px-8 py-6 relative w-full flex flex-col items-center">
-        <h2 className="md:text-[37px] text-[25px] font-raleway font-normal text-center text-white">
-          I'm ready to make 100% profit!
-        </h2>
-        <div className="bg-primary absolute bottom-0 h-[70px] w-[70%] mx-auto flex justify-center items-center text-white text-center">
-          <h2 className="text-[37px] font-raleway font-normal">Join Now!</h2>
-        </div>
-      </div>
     </div>
   );
 };
