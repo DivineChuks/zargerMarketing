@@ -10,7 +10,7 @@ const Info = () => {
               src="https://www.youtube.com/embed/lb1_jZIb-kk"
               style={{
                 width: "90%",
-                height: "450px",
+                height: "470px",
               }}
               allow="autoplay; encrypted-media"
               // allowFullScreen
