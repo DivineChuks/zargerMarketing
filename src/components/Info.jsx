@@ -13,7 +13,7 @@ const Info = () => {
                 height: "450px",
               }}
               allow="autoplay; encrypted-media"
-              allowFullScreen
+              // allowFullScreen
               title="video"
             />
           </div>

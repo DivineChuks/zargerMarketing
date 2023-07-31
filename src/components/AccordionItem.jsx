@@ -4,6 +4,7 @@ import {
 } from "react-icons/bi";
 import { Collapse } from "react-collapse";
 import React, { useEffect } from "react";
+import "aos/dist/aos.css";
 import AOS from "aos";
 
 const AccordionItem = ({ title, desc, open, toggle, component }) => {
@@ -16,9 +17,7 @@ const AccordionItem = ({ title, desc, open, toggle, component }) => {
       data-aos-easing="ease-in-sine"
       data-aos-duration="600"
       data-aos-once="true"
-      className={`${
-        component === "questions" ? "bg-primary" : "bg-secondary"
-      } rounded-md py-[20px] px-[20px] md:px-[30px] mb-[30px]`}
+      className='rounded-md py-[20px] px-[20px] md:px-[30px] mb-[30px] bg-primary'
     >
       <div
         onClick={toggle}
